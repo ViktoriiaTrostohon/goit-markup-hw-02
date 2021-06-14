@@ -52,3 +52,15 @@ body {
 .hts-list-item-name {
     color: var(--title-text-color)
 }
+/* What we do */
+/* Our team */
+.hts-employee {
+    color: var(--title-text-color)
+}
+/* Footer */
+.google-maps-address {
+    color: var(--primary-white-color);
+}
+.virtual-address-link {
+    color: rgba(255, 255, 255, 0.6);
+}
