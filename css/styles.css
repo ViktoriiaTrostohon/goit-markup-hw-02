@@ -12,6 +12,7 @@
 body {
     color: var(--main-text-color)
 }
+/* Header */
 .logo-name-one {
     color: var(--accent-color);
 }
@@ -36,3 +37,12 @@ body {
 .contacts-item.current {
     color: var(--accent-color);
 }
+/* Hero */
+.hero-title {
+    color: var(--primary-white-color);
+}
+.button-hero {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+/* Why us */
