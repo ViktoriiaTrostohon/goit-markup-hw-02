@@ -46,3 +46,9 @@ body {
     background-color: var(--accent-color);
 }
 /* Why us */
+.hts, .htp {
+    color: var(--title-text-color);
+}
+.hts-list-item-name {
+    color: var(--title-text-color)
+}
