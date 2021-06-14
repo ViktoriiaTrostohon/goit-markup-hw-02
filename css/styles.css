@@ -64,3 +64,16 @@ body {
 .virtual-address-link {
     color: rgba(255, 255, 255, 0.6);
 }
+/* Examples of our works */
+.portfolio-button {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+}
+.portfolio-button:hover, .portfolio-button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.portfolio-button.current {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color); 
+}
