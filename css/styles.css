@@ -9,3 +9,30 @@
     --primary-white-color: #ffffff;
     --accent-color: #2196F3;
 }
+body {
+    color: var(--main-text-color)
+}
+.logo-name-one {
+    color: var(--accent-color);
+}
+.logo-name-two {
+    color: #000000;
+}
+.nav-list-item {
+    color: var(--title-text-color);
+}
+.nav-list-item:hover, .nav-list-item:focus {
+    color: var(--accent-color);
+}
+.nav-list-item.current {
+    color: var(--accent-color)
+}
+.contacts-item {
+    color: var(--main-text-color);
+}
+.contacts-item:hover, .contacts-item:focus {
+    color: var(--accent-color);
+}
+.contacts-item.current {
+    color: var(--accent-color);
+}
