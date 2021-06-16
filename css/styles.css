@@ -71,6 +71,7 @@ body {
 /* Hero, bgc temporary */
 .hero {
     background-color:  #2F303A;
+    text-align: center;
 }
 .hero-title {
     color: var(--primary-white-color);
@@ -81,15 +82,13 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-.hero-button {
+.hero .hero-button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
 }
 .hero-button:hover, .hero-button:focus {
