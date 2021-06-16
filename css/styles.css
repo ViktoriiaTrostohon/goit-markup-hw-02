@@ -39,7 +39,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    list-style: none;
 }
 .nav-item:hover, .nav-item:focus {
     color: var(--accent-color);
@@ -49,6 +48,11 @@ body {
 }
 .contacts-item {
     color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .contacts-item:hover, .contacts-item:focus {
     color: var(--accent-color);
@@ -62,10 +66,24 @@ body {
 }
 .hero-title {
     color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .hero-button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 .hero-button:hover, .hero-button:focus {
     color: var(--accent-color);
@@ -75,13 +93,41 @@ body {
 .hts, .htp {
     color: var(--title-text-color);
 }
+.hts {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 .hts-list-item-name {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.hts-list-item-content {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 /* What we do */
 /* Our team */
 .hts-employee {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.hts-employee-job {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 /* Footer */
 .footer {
@@ -99,7 +145,7 @@ body {
 .virtual-address-link {
     color: rgba(255, 255, 255, 0.6);
 }
-/* Examples of our works */
+/* Examples of our works:buttons */
 .portfolio-button {
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
@@ -111,4 +157,11 @@ body {
 .portfolio-button.current {
     color: var(--primary-white-color);
     background-color: var(--accent-color); 
+}
+/* Examples of our works: content blocks */
+.htp {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
