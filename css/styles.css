@@ -1,16 +1,17 @@
-/* main text color #757575; */
-/* title text color #212121; */
-/* primary white color #ffffff; */
-/* accent color #2196F3; */
-/* footer contacts color rgba(255, 255, 255, 0.6); */
+/* Colors
+main text #757575;
+title text #212121;
+primary white #ffffff;
+accent #2196F3;
+footer contacts rgba(255, 255, 255, 0.6);
+portfolio button #F5F4FA;
+studio page background #2F303A; */
 
 :root {
     --main-text-color: #757575;
     --title-text-color: #212121;
     --primary-white-color: #ffffff;
     --accent-color: #2196F3;
-    --temporary-bgc: #2F303A;
-    --footer-contacts-color rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -69,7 +70,7 @@ body {
 
 /* Hero, bgc temporary */
 .hero {
-    background-color: var(--temporary-bgc);
+    background-color:  #2F303A;
 }
 .hero-title {
     color: var(--primary-white-color);
@@ -137,7 +138,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: var(--temporary-bgc);
+    background-color:  #2F303A;
 }
 .footer .logo-name-two {
     color: var(--primary-white-color);
@@ -149,7 +150,7 @@ body {
     color: var(--primary-white-color);
 }
 .virtual-address-link {
-    color: var(--footer-contacts-color);
+    color: rgba(255, 255, 255, 0.6);
 }
 .google-maps-address, .virtual-address-link {
     font-style: normal;
@@ -161,7 +162,11 @@ body {
 /* Examples of our works:buttons */
 .portfolio-button {
     color: var(--title-text-color);
-    background-color: var(--primary-white-color);
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 }
 .portfolio-button:hover, .portfolio-button:focus {
     color: var(--primary-white-color);
@@ -178,4 +183,8 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+}
+.htp-example {
+    font-size: 16px;
+    line-height: 1.87;
 }
