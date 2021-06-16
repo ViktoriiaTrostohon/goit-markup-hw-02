@@ -8,6 +8,7 @@
     --title-text-color: #212121;
     --primary-white-color: #ffffff;
     --accent-color: #2196F3;
+    --temporary-bgc: #2F303A;
 }
 body {
     color: var(--main-text-color)
@@ -37,13 +38,20 @@ body {
 .contacts-item.current {
     color: var(--accent-color);
 }
-/* Hero */
+/* Hero, bgc temporary */
+.hero {
+    background-color: var(--temporary-bgc);
+}
 .hero-title {
     color: var(--primary-white-color);
 }
-.button-hero {
+.hero-button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+}
+.hero-button:hover, .hero-button:focus {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
 }
 /* Why us */
 .hts, .htp {
@@ -58,6 +66,15 @@ body {
     color: var(--title-text-color)
 }
 /* Footer */
+.footer {
+    background-color: var(--temporary-bgc);
+}
+.footer .logo-name-two {
+    color: var(--primary-white-color);
+}
+.google-maps-address:hover, .google-maps-address:focus, .virtual-address-link:hover, .virtual-address-link:focus  {
+    color: var(--accent-color);
+}
 .google-maps-address {
     color: var(--primary-white-color);
 }
