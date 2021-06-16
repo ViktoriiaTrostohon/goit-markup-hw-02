@@ -11,22 +11,40 @@
     --temporary-bgc: #2F303A;
 }
 body {
-    color: var(--main-text-color)
+    color: var(--main-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
-/* Header */
+.list {
+    list-style-type: none;
+}
+/* Header: logo */
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
 .logo-name-one {
     color: var(--accent-color);
 }
 .logo-name-two {
     color: #000000;
 }
-.nav-list-item {
+/* Header: navigation */
+.nav-item {
     color: var(--title-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    list-style: none;
 }
-.nav-list-item:hover, .nav-list-item:focus {
+.nav-item:hover, .nav-item:focus {
     color: var(--accent-color);
 }
-.nav-list-item.current {
+.nav-item.current {
     color: var(--accent-color)
 }
 .contacts-item {
