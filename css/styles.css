@@ -5,17 +5,19 @@ primary white #ffffff;
 accent #2196F3;
 footer contacts rgba(255, 255, 255, 0.6);
 portfolio button #F5F4FA;
-studio page background #2F303A; */
+studio hero background #2F303A; */
 
 :root {
     --main-text-color: #757575;
     --title-text-color: #212121;
     --primary-white-color: #ffffff;
     --accent-color: #2196F3;
+    --main-background-color: #E5E5E5;
 }
 
 body {
     color: var(--main-text-color);
+    background-color: var(--main-background-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
@@ -88,6 +90,7 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 .hero-button:hover, .hero-button:focus {
     color: var(--accent-color);
@@ -163,6 +166,7 @@ body {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    cursor: pointer;
 }
 .portfolio-button:hover, .portfolio-button:focus {
     color: var(--primary-white-color);
