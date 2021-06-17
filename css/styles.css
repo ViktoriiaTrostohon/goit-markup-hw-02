@@ -9,7 +9,7 @@
 body {
   color: var(--main-text-color);
   background-color: var(--main-background-color);
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Open Sans, Cabin, sans-serif;
   letter-spacing: 0.03em;
 }
 .list {
